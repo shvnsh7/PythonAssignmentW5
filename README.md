@@ -21,8 +21,13 @@ the "standard_user" and "problem_user". Decide on the Columns on your own and tr
 
 5. Using the above "Order Details" sheet try the place all the orders on the website one by one. Update a new column in the 
 "Order Details" sheet called "Order Status" marking it as "Success/Failure".
-
-#Dependencies
+Success criteria should be as follows.
+1. The correct number of items should be added to the Cart.
+2. The total amount at the end should be correct.
+3. Success message should be displayed for every order placed.
+4. No Items should be left over in the cart.
+ 
+# Dependencies
 pandas: For data manipulation and Excel file handling.
 selenium.webdriver.common.by.By: For locating elements on the web page.
 openpyxl : For working with Excel files.
@@ -30,10 +35,3 @@ selenium.webdriver.common.keys.Keys: For keyboard actions.
 selenium.webdriver.support.ui.WebDriverWait: For explicit waits.
 selenium.webdriver.support.expected_conditions: For defining expected conditions.
 selenium.common.exceptions.TimeoutException: For handling timeout exceptions.
-Success criteria should be as follows.
-1. The correct number of items should be added to the Cart.
-2. The total amount at the end should be correct.
-3. Success message should be displayed for every order placed.
-4. No Items should be left over in the cart.
- 
-
