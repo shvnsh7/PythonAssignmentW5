@@ -29,7 +29,9 @@ Success criteria should be as follows.
  
 # Dependencies
 pandas: For data manipulation and Excel file handling.
+
 selenium.webdriver.common.by.By: For locating elements on the web page.
+
 openpyxl : For working with Excel files.
 selenium.webdriver.common.keys.Keys: For keyboard actions.
 selenium.webdriver.support.ui.WebDriverWait: For explicit waits.
