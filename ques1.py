@@ -6,8 +6,7 @@ Selenium is a tool used for automating web browsers"""
 
 #from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
-"""This line imports the By class from the selenium.webdriver.common.by module. 
-The By class provides various methods to locate elements on a web page using different strategies, 
+"""The By class provides various methods to locate elements on a web page using different strategies, 
 such as by ID, by class name, by tag name, etc."""
 
 driver = webdriver.Edge()
