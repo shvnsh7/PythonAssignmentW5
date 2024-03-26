@@ -1,6 +1,5 @@
 # PythonAssignmentW5
-Python Integrated Selenium on Saucelabs website. 
-Using Selenium with Python please complete the following assignments.
+## Python Integrated Selenium on Saucelabs website.
 --------------------------------------------------------------------------
 
 1. Retrieve all the Users and password related information and store it in Sheet named "User credentials" in a excel file.
@@ -27,7 +26,7 @@ Success criteria should be as follows.
 3. Success message should be displayed for every order placed.
 4. No Items should be left over in the cart.
  
-# Dependencies
+## Dependencies
 pandas: For data manipulation and Excel file handling.   
 selenium.webdriver.common.by.By: For locating elements on the web page.  
 openpyxl : For working with Excel files.  
