@@ -28,12 +28,10 @@ Success criteria should be as follows.
 4. No Items should be left over in the cart.
  
 # Dependencies
-pandas: For data manipulation and Excel file handling.
-
-selenium.webdriver.common.by.By: For locating elements on the web page.
-
-openpyxl : For working with Excel files.
-selenium.webdriver.common.keys.Keys: For keyboard actions.
-selenium.webdriver.support.ui.WebDriverWait: For explicit waits.
-selenium.webdriver.support.expected_conditions: For defining expected conditions.
-selenium.common.exceptions.TimeoutException: For handling timeout exceptions.
+pandas: For data manipulation and Excel file handling.   
+selenium.webdriver.common.by.By: For locating elements on the web page.  
+openpyxl : For working with Excel files.  
+selenium.webdriver.common.keys.Keys: For keyboard actions.  
+selenium.webdriver.support.ui.WebDriverWait: For explicit waits.  
+selenium.webdriver.support.expected_conditions: For defining expected conditions.  
+selenium.common.exceptions.TimeoutException: For handling timeout exceptions.  
